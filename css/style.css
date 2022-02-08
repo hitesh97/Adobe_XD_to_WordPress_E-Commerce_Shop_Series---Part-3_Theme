@@ -150,6 +150,19 @@ section, footer, .content-area, main {
       -ms-grid-row-align: center;
       align-self: center;
 }
+/* .main-header__logo::after {
+  content: "";
+  background-image: url("../images/trinket_collection_logo.jpeg");
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: 60%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+} */
 
 .main-header__nav {
   grid-area: nav;

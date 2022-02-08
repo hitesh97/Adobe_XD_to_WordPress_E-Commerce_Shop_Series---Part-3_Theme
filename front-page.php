@@ -3,7 +3,7 @@
     <a href="<?php echo get_site_url() . '/shop'; ?>" class="hero__wrapper">
         <div class="wrapper">
             <div class="wrapper__heading">
-                <span>THE NEW COLLECTION</span>
+                <span>TRINKET COLLECTION</span>
                 <h1>Elegant & Luxury</h1>
                 <div class="button button-white">BROWSE COLLECTION</div>
             </div>
@@ -40,7 +40,7 @@
 
 <section class="newsletter">
 
-<h1 class="newsletter__heading">Sign up to Guards newsletter and
+<h1 class="newsletter__heading">Sign up to Trinket Colletion's newsletter and
     get updates about our latest arrivals
     and exclusive sales.</h1>
 

@@ -9,7 +9,7 @@
 
     <header class="main-header">
         <div class="main-header__logo">
-            <a href="<?php echo get_site_url(); ?>">Guard...[]</a>
+            <a href="<?php echo get_site_url(); ?>">Trinket collection logo</a>
         </div>
 
         <nav class="main-header__nav">
