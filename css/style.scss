@@ -103,7 +103,7 @@ input {
     background-color: #fff;
 }
 
-section, footer, .content-area, main {
+section, footer, .content-area, .main {
     margin: 0 auto;
     padding: $mobile-padding;
 
@@ -152,14 +152,9 @@ section, footer, .content-area, main {
             padding: 0;
             list-style: none;
 
-            .menu-item {
+            .manu-item {
                 display: inline-block;
                 padding: 0 32px;
-
-                &:hover .sub-menu {
-                    display: block;
-                }
-
             }
         }
 
@@ -179,41 +174,7 @@ section, footer, .content-area, main {
                 &:last-child { bottom: 0; }
             }
         }
-
-        .sub-menu {
-            display: none;
-            padding: 0;
-            position: absolute;
-            background-color: #fff;
-            min-width: 140px;
-            z-index: 1;
-
-            .menu-item {
-                padding: 0;
-                display: block;
-
-                a {
-                    text-decoration: none;
-                    display: block;
-                    padding: 0.6rem 1rem;
-
-                    li {
-                        padding: 0;
-                        display: block;
-                        text-align: center;
-                    }
-
-                    &:hover {
-                        background-color: #ddd;
-                    }
-                }
-            }
-
-        }
-
-        
     }
-
 
     &__tools {
         grid-area: tools;
@@ -245,66 +206,6 @@ section, footer, .content-area, main {
     }
 }
 
-
-/* Mobile Menu
-==============================================*/
-
-.mobile-menu { 
-    display: none;
-    margin-top: 80px;
-
-    .menu {
-        padding: 0;
-        list-style-type: none;
-
-        a {
-            padding: 0.6rem 1rem;
-            display: block;
-            text-align: center;
-            text-decoration: none;
-        }
-    
-        .menu-item {
-            &:hover .sub-menu {
-                display: block;
-            }
-        }
-    }
-
-    .sub-menu {
-        display: none;
-        padding: 0;
-        background-color: #fff;
-        min-width: 140px;
-        z-index: 1;
-
-        .menu-item {
-            padding: 0;
-            display: block;
-
-            a {
-                text-decoration: none;
-                display: block;
-                padding: 0.6rem 1rem;
-
-                li {
-                    padding: 0;
-                    display: block;
-                    text-align: center;
-                }
-
-                &:hover {
-                    background-color: #ddd;
-                }
-            }
-        }
-
-    }
-
-
-}
-
-
 /* Hero
 ==============================================*/
 .hero {
@@ -312,7 +213,7 @@ section, footer, .content-area, main {
 
     &::after {
         content: "";
-        background-image: url("../images/hero-image@2x.jpg");
+        background-image: url("/images/hero-image@2x.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: 60%;
@@ -329,7 +230,6 @@ section, footer, .content-area, main {
 
         h1 {
             margin: 26px;
-            padding-bottom: 20px;
         }
     }
 
@@ -386,14 +286,14 @@ section, footer, .content-area, main {
     &--gray { background-color: #f2f3f5; }
 
     &--women {
-        background-image: url("../images/female.png");
+        background-image: url("/images/female.png");
         background-size: contain;
         background-repeat: no-repeat;
         background-position: calc(100% - -50px);
     }
 
     &--men {
-        background-image: url("../images/male.png");
+        background-image: url("/images/male.png");
         background-size: contain;
         background-repeat: no-repeat;
         background-position: calc(100% - -30px);
@@ -494,21 +394,4 @@ section, footer, .content-area, main {
     }
  
     &__body { margin: 40px 0; }
-}
-
-
-/* Page Hero */
-.page-hero {
-    display: grid;
-    height: 60vh;
-    background-color: #ececec;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    justify-items: center;
-    align-items: center;
-    color: #fff;
-    margin: 20px 0;
-
-    &__heading { color: #fff; }
 }

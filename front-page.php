@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <section class="hero">
-    <a href="/shop" class="hero__wrapper">
+    <a href="<?php echo get_site_url() . '/shop'; ?>" class="hero__wrapper">
         <div class="wrapper">
             <div class="wrapper__heading">
                 <span>THE NEW COLLECTION</span>
