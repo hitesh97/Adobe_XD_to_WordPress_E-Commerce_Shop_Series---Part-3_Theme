@@ -12,12 +12,12 @@
 </section>
 
 <section class="standard-promo">
-    <a href="#" class="promo-card promo-card--gray promo-card--women">
-        <h2 class="promo-card__heading">Shop Women</h2>
+    <a href="<?php echo get_site_url() . '/earrings'; ?>" class="promo-card promo-card--gray promo-card--women">
+        <h2 class="promo-card__heading">Shop Earrings</h2>
         <p class="promo-card__body">Women's new arrivals. It's time to explore your options.</p>
     </a>
-    <a href="#" class="promo-card promo-card--gray promo-card--men">
-        <h2 class="promo-card__heading">Shop Men</h2>
+    <a href="<?php echo get_site_url() . '/necklaces'; ?>" class="promo-card promo-card--gray promo-card--men">
+        <h2 class="promo-card__heading">Shop Necklaces</h2>
         <p class="promo-card__body">Mens's new arrivals. It's time to explore your options.</p>
     </a>
 </section>
