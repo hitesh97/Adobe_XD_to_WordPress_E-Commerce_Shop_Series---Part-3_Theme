@@ -9,7 +9,7 @@
 
     <header class="main-header">
         <div class="main-header__logo">
-            <a href="<?php echo get_site_url(); ?>">Trinket collection logo</a>
+            <a href="<?php echo get_site_url(); ?>"><img src="<?php echo get_template_directory_uri() . "/images/trinket_collection_logo-100x100.jpeg"; ?>" alt="Trinket collection logo"></a>
         </div>
 
         <nav class="main-header__nav">

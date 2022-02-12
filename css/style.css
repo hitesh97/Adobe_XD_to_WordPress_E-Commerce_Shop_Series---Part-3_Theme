@@ -150,6 +150,11 @@ section, footer, .content-area, main {
       -ms-grid-row-align: center;
       align-self: center;
 }
+.main-header__logo img{
+  max-width: 64px;
+  max-height: 64px;
+}
+
 /* .main-header__logo::after {
   content: "";
   background-image: url("../images/trinket_collection_logo.jpeg");

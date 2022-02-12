@@ -140,6 +140,11 @@ section, footer, .content-area, .main {
         font-weight: 600;
         justify-self: center;
         align-self: center;
+
+        img{
+            max-width: 64px;
+            max-height: 64px;
+        }
     }
 
     &__nav {
